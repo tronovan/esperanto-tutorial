@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { SimplewordsService } from './services/simplewords.service';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [SimplewordsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
