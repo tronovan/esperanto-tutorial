@@ -1,3 +1,5 @@
-<p>
-  simplewords works!
-</p>
+<ul>
+  <li *ngFor='let x of simplewordsService.words'>
+    {{x.english}} | {{x.esperanto}}
+  </li>
+</ul>

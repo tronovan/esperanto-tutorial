@@ -8,7 +8,9 @@ import { SimplewordsService } from '../../services/simplewords.service';
 })
 export class SimplewordsComponent implements OnInit {
 
-  constructor(private simplewordsService: SimplewordsService) { }
+  constructor(public simplewordsService: SimplewordsService) {
+
+  }
 
   ngOnInit() {
   }
