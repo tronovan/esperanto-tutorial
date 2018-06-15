@@ -1,4 +1,4 @@
-export interface Client {
+export interface Word {
   english: string;
   esperanto: string;
 }
